@@ -2,6 +2,7 @@ package org.example.leetcode;
 
 import java.util.Scanner;
 
+//https://leetcode.com/problems/number-of-common-factors/description/
 public class NumberOfCommonFactors_2427 {
 
     public static void main(String[] args) {

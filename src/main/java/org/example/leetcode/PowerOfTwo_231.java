@@ -13,7 +13,13 @@ public class PowerOfTwo_231 {
 //        int num = 1;
 //        int num = 16;
 //        int num = 3;
-        int num = 0;
+//        int num = 0;
+
+//        int num = -4;
+//        int num = -16;
+//        int num = -13;
+        int num = -12;
+
         boolean isPowerOf2 = false;
 
         if(num == 0)
@@ -25,7 +31,7 @@ public class PowerOfTwo_231 {
         }
         while (num % 2 == 0) {
             num = num / 2;
-            if (num == 1) {
+            if (num == 1 || num == -1) {
                 isPowerOf2 = true;
                 break;
             }
