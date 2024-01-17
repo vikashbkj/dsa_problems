@@ -25,8 +25,8 @@ public class NumberOfCommonFactors_2427 {
     private static int commonFactors(int a, int b) {
         int commonFactorCounter = 0;
 
-        int largest = a > b ? a : b;
-        for (int i = 1; i <= largest; i++) {
+        int smallest = a < b ? a : b;
+        for (int i = 1; i <= smallest; i++) {
             if (a % i == 0 && b % i == 0) {
                 System.out.println("common factor = " + i);
                 commonFactorCounter++;
